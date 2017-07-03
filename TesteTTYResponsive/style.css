@@ -95,7 +95,6 @@ body {
 }
 
 button[name="btn-search"] img{
-/*	background: url('img/search.png') left top no-repeat;*/
 	margin: -1px 0 0 -11px !important;
 	border-radius: 0 5px 5px 0;
 	-moz-border-radius: 0 5px 5px 0;
@@ -104,6 +103,24 @@ button[name="btn-search"] img{
 
 .logo-img{
 	padding: 20px;
+}
+
+.web-form label{
+	  color: #eee !important;
+}
+
+#select-categoria{
+  background: #FFF;
+  width: 150px;
+  padding: 5px 35px 5px 5px;
+  font-size: 1vw;
+  color: #999;
+  border: 1px solid #ccc;
+  height: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('img/arrowdown.png') 96% / 15% no-repeat #FFF;
 }
 
 .logo-img img{
@@ -787,4 +804,11 @@ div.tab button.active {
 		width: 80px !important;
 		margin-left: 10px;
 	}
+}
+
+.img-warning{
+	opacity: 0;
+	z-index:1; 
+	position: absolute;
+	max-width: 15px;
 }
