@@ -73,7 +73,7 @@ $(document).ready(function(){
    );
 
 
-    $('.img-warning').on({
+    $('.right-nav ul li:nth-child(2)').on({
     'click': function(){
         number++;
         if(number == 3){
